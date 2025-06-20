@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moje stránka</title>
+    <link rel="stylesheet" href="formulas.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">NETFLIX</div>
+      <a href="index.html" class="btn-uvodnístrana">Úvodní strana</a>
+    </header>
+    <main class="main">
+      <form id="registerForm">
+        <input type="text" placeholder="Křestní jméno" required />
+        <input type="text" placeholder="Příjmení" required />
+        <input type="email" placeholder="Přihlašovací email" required />
+        <input
+          type="password"
+          id="password"
+          placeholder="Vaše heslo"
+          required
+        />
+        <input
+          type="password"
+          id="confirmpassword"
+          placeholder="Heslo znovu"
+          required
+        />
+        <button type="submit" class="btn-submit">Odeslat</button>
+      </form>
+    </main>
+    <script src="formular.js"></script>
+  </body>
+</html>
